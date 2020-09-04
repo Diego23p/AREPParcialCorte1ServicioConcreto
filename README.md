@@ -1,6 +1,6 @@
 # 
 
-Programa que calcula la media y la desviación estandar de un conjunto de N numeros reales ingresados por medio de una página web
+Programa que retorna el valor de las funciones trigonomertricas cos, sin, tan
 
 ## Inicialización
 
@@ -73,33 +73,15 @@ Para ejecutar el programa localmente haciendo uso de Heroku, se necesita desde l
 ```
 En la página web se deben ingresar los números en el campo de ingreso separados por comas
 
-## Ejecutando los Test
-
-Para ejecutar únicamente los test, se tiene el siguiente comando desde CMD:
-```
-> mvn test
-
-...
-```
-
-<info de test>.
-
-
-### Generar JavaDoc
-
-```
-mvn javadoc:javadoc
-```
-
 ## Heroku
 
 La aplicación desplegada en la nube se encuentra en: 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](...)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://still-hamlet-80792.herokuapp.com/)
 
 # Descripción del Diseño
 
-
+Cuenta con la clase principal main que resuelve qué función se está invcando y llama al método correspondiente en OperacionesImpl el cual resuelve la operación solicitada.
 
 # Autores
 
