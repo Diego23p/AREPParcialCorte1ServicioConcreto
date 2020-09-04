@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* edu.escuelaing.arep.Server
+web: java -cp target/classes:target/dependency/* edu.escuelaing.arep.TrigCalculator
